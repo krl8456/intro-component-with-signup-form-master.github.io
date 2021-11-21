@@ -13,7 +13,7 @@
 :root
 {
     font-size: 16px;
-    background: url("images/bg-intro-desktop.png") hsl(0, 100%, 74%) no-repeat;
+    background: url("images/bg-intro-desktop.png") hsl(0, 100%, 74%) repeat;
     color: white;
     font-family: Poppins-Regular;
 }
@@ -120,6 +120,10 @@ button:hover
 {
     background-color: hsl(152, 45%, 77%);;
 }
+#txtinbutton
+{
+    opacity: 0.95;
+}
 @media screen and (max-width: 890px)
 {
     :root
@@ -133,8 +137,8 @@ button:hover
     }
     #text, #sheet
     {
-        width: 100%;
-        margin: 0;
+        width: 124%;
+        margin: 0 -12%;
     }
     h1, #text, .terms
     {
@@ -147,6 +151,7 @@ button:hover
     .terms
     {
         margin: 0 10%;
+        margin-bottom: 20px;
     }
     button
     {
@@ -154,7 +159,7 @@ button:hover
     }
     
 }
-@media screen and (max-width: 320px)
+@media screen and (max-width: 327px)
 {
     :root 
     {
@@ -167,12 +172,7 @@ button:hover
     button
     {
         height: 70px;
-    }
-}
-@media screen and (min-width: 1415px)
-{
-    :root
-    {
-        background-repeat: repeat;
+        padding-left: 18%;
+        padding-right: 18%;
     }
 }
