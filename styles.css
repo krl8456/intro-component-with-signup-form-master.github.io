@@ -12,7 +12,7 @@
 }
 :root
 {
-    font-size: 16px;
+    font-size: 15px;
     background: url("images/bg-intro-desktop.png") hsl(0, 100%, 74%) repeat;
     color: white;
     font-family: Poppins-Regular;
@@ -53,6 +53,11 @@ h1, .thick, input, #red
 {
     font-family: Poppins-Bold;
 }
+h1
+{
+    font-size: 38px;
+    line-height: 120%;
+}
 button, form
 {
     border-radius: 10px;
@@ -85,7 +90,7 @@ form
 }
 input, #submitbutton
 {
-    width: 85%;
+    width: 100%;
     height: 40px;
     box-sizing: border-box;
     border-radius: 5px;
@@ -95,6 +100,11 @@ input
     margin-bottom: -2%;
     border: 1px solid rgb(219, 218, 218);
     padding-left: 5%;
+}
+.form-control
+{
+    width: 85%;
+    margin-bottom: 20px;
 }
 #submitbutton
 {
@@ -124,6 +134,21 @@ button:hover
 {
     opacity: 0.95;
 }
+/*.errortext
+{
+    color: red;
+    margin-left: 50%;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 12px;
+    font-size: 9px;
+    font-style: italic;
+}*/
+.form-control
+{
+    text-align: right;  
+}
+
 @media screen and (max-width: 890px)
 {
     :root
@@ -159,7 +184,14 @@ button:hover
     }
     
 }
-@media screen and (max-width: 327px)
+@media screen and (max-width: 460px)
+{
+    #text
+    {
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 376px)
 {
     :root 
     {
@@ -174,5 +206,9 @@ button:hover
         height: 70px;
         padding-left: 18%;
         padding-right: 18%;
+    }
+    #text
+    {
+        margin-top: 150px;
     }
 }
