@@ -33,6 +33,7 @@ main
     justify-content: center;
     align-content: space-between;
     margin: 0 15%;
+    
 }
 #text, #sheet
 {
@@ -134,16 +135,6 @@ button:hover
 {
     opacity: 0.95;
 }
-/*.errortext
-{
-    color: red;
-    margin-left: 50%;
-    justify-content: center;
-    margin-top: -10px;
-    margin-bottom: 12px;
-    font-size: 9px;
-    font-style: italic;
-}*/
 .form-control
 {
     text-align: right;  

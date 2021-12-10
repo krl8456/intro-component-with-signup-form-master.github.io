@@ -49,6 +49,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+  I started with changing fonts for particular parts of text then align content using CSS Flexbox, centering a buttons, adding hover states and finally added form validation using JavaScript.
 ### Built with
 
 - Semantic HTML5 markup
